@@ -1,0 +1,5 @@
+<Response>
+  <Gather numDigits="1" action="/voice/option" finishOnKey="0" timeout="60">
+  </Gather>
+  <Redirect>/voice/option</Redirect>
+</Response>

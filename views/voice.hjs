@@ -1,0 +1,10 @@
+<Response>
+  <Say>Welcome to Twil e o.</Say>
+  <Pause length="1"></Pause>
+  <Say>Lets fly some Node copters.</Say>
+  <Gather numDigits="1" finishOnKey="0" action="/voice/option">
+    <Say>Press star to take off</Say>
+    <Say>Press pound to land</Say>
+    <Say>See what the other keys do if you like</Say> 
+  </Gather>
+</Response>

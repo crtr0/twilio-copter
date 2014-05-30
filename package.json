@@ -1,0 +1,23 @@
+{
+  "name": "twilio-drone",
+  "version": "0.0.1",
+  "description": "Twilio Drone",
+  "main": "app.js",
+  "dependencies": {
+    "hapi": "1.9",
+    "handlebars": "1.0.12",
+    "twilio": "1.6",
+    "ar-drone": "0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "Carter Rabasa <carter@twilio.com>",
+  "license": "BSD",
+  "subdomain": "twilio-drone",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
